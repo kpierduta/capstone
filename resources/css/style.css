@@ -29,6 +29,7 @@ header {
   position: fixed;
   width: 100%;
   height: 64px;
+  z-index: 1;
 }
 
 .logo {
@@ -65,13 +66,96 @@ header nav li {
 
 /* Content container */
 
-.content {
+.column-container-one {
   background-color: #D8D8D8;
-  display: flex;
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
+.left-container {
+  width: 60%;
+  float: left;
+}
+
+.right-container {
+  width:40%;
+  float: right;
+}
+
+
+#left img {
+  width: 100%;
+  padding: 24px 32px;
+
+}
+
+#right {
+  margin-left: 24px;
+}
+
+
+
+.column-container-two {
+  background-color: #fff;
+}
+
+
+
+/* row two */
+
+
+.row-one
+.row-two
+.highlighted-row img {
+  width: 35%;
+}
+
+/*  courses section */
+
+.courses {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.column-container-three {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item {
+  padding: 5px;
+  background-color: #fff;
+}
+
+.item img {
+  display: block;
+  margin: 10px;
+  height: auto;
+  width: 300px;
+}
+
+.item span {
+    font-weight: bold;
+}
+
+.category {
+  text-transform: uppercase;
+}
+
+
+
+/*  footer section */
+
+footer {
+  display: inline-block;
+}
+
+
+
+
+/* -- not sure about this code
 .content .hero-image {
   padding-left: 24px;
   padding-right: 32px;
@@ -86,6 +170,7 @@ header nav li {
 .hero-content {
   display: inline-block;
   flex-direction: row;
+  flex-wrap:
   padding-left: 24px;
 }
 
@@ -96,5 +181,7 @@ header nav li {
 .hero-content p {
   padding-top: 25px;
 }
+
+-- */
 
 /* Information section */
